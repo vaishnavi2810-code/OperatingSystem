@@ -24,9 +24,9 @@ printf("Average waiting time=%f\n ",(float)total_wt/(float)n);
 printf("Total Turn Around Time=%f\n ",(float)total_tat/(float)n);
 }
 int main(){
-int processes[]={1,2,3,4};
-int n =sizeof processes/sizeof processes[0];
-int burst_time[]={2,2,3,4};
-avg_time(processes,n,burst_time);
+    int processes[]={1,2,3,4};
+    int n =sizeof processes/sizeof processes[0];
+    int burst_time[]={2,2,3,4};
+    avg_time(processes,n,burst_time);
 }
 
